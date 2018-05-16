@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网站</title>
+	</head>
+	<style>
+		body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,th,td,img,div,dl,dt,dd,input{margin: 0; padding: 0;}
+		html,body{height: 100%;}
+		.clearfloat:after{content: ""; display: block; clear: both;}
+        .clearfloat{zoom: 1;}
+        .left{float: left;}
+        .right{float: right;}
+        .content>div{height: 100%;}
+        .content1{padding: 10px;}
+        .content1-up{position: absolute;top:30px;left:10px;display: flex;flex-direction: column;margin-left: 5px;}
+        .content1-up>img{margin-top: 10px;}
+        .content1-down{position: absolute;bottom:30px;left:10px;display: flex;flex-direction: row;margin-left: 5px;}
+        .content1-down>img:first-child{margin-right: 20px;margin-left: 5px;}
+        .list{border-bottom: 1px solid #ddd;padding: 10px 0;}
+        .list .current{font-weight: bold;padding-left: 20px;color: #a1a1a1;}
+        .list .current img{padding-right: 40px;margin-top: 6px;width: 16px;}
+        .list ul li{line-height: 35px;color: #FFFFFF;font-size: 14px;padding-left: 50px;list-style: none;}
+        .list .li:hover{cursor: pointer;color:#ff7700;}
+        /*.content_left_list1:hover{background: #F5F5F5;}*/
+       .content2-div{color: #FFFFFF;font-size: 14px;position: absolute;bottom:30px;left:10px;display: flex;flex-direction: row;margin-left: 5px;}
+       .content2-div>span:first-child{margin-right: 20px;}
+       .content3 {display: flex;flex-direction: column;}
+       .content3 .content3-up{height: 100px;border-bottom: 1px solid #E5E5E5;width: 100%;padding: 10px;}
+       .content3 .content3-down{width: 100%;}
+	</style>
+	<body>
+		<div style="height: 100%; box-sizing: content-box;overflow-x: hidden;overflow-y: hidden;" class="clearfloat content">
+			<div class="content1 left" style="background: #1D2531;width: 90px; box-sizing: border-box;position: relative;">
+				<div class="content1-up">
+					<img src="3.png"/>
+					<img src="2.png"/>
+					<img src="3.png"/>
+					<img src="2.png"/>
+				</div>
+				<div class="content1-down">
+					<img src="Grid.png"/>
+					<img src="Settings.png"/>
+				</div>
+			</div>
+			
+			<div class="content2 left" style="background:#222C3C;width: 250px; box-sizing: border-box;padding-top: 20px;position: relative;">
+				<div class="content_left_list1 list">
+						<ul class="clearfloat">
+							<li class="current">MENU<img src="Settings.png" class="right" /></li>
+							<li class="li">Overview</li>
+							<li class="li">Sales</li>
+							<li class="li">Your&nbsp;Staff</li>
+							<li class="li">Analytics&nbsp;&&nbsp;Targeting</li>
+							<li class="li">What&nbsp;is&nbsp;new</li>
+						</ul>
+					</div>
+
+					<div class="content_left_list1 list">
+						<ul class="clearfloat">
+							<li class="current">YOUR&nbsp;PRODUCTS<img src="Settings.png" class="right" /></li>
+							<li class="li">Books</li>
+							<li class="li">Tutorials</li>
+							<li class="li">Stocks</li>
+							<li class="li">Infographlcs </li>
+						</ul>
+					</div>
+
+					<div class="content_left_list1 list">
+						<ul class="clearfloat">
+							<li class="current">DASHBOARD<img src="Settings.png" class="right" /></li>
+							<li class="li">Messages</li>
+							<li class="li">Connections</li>
+							<li class="li">Integrations</li>
+							<li class="li">Account&nbsp;Settings</li>
+							<li class="li">App&nbsp;Settings</li>
+						</ul>
+					</div>
+					
+					<div class="content2-div"><span>Monthly&nbsp;Goads</span><span>$580/$3200</span></div>
+			</div>
+			
+			<div class="content3 left" style="background:#FFFFFF ; box-sizing: border-box;width: calc(100% - 340px);overflow-y: auto;">
+				<div class="content3-up clearfloat">
+					<span class="left"><a style="font-weight: bold;margin-left: 20px;">Messages</a></span>
+					<div class="right clearfloat" style="margin-right: 50px;">
+						<img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+						<span class="right" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Aordoan&nbsp;J</a>
+							  	<a>Administrator</a>
+					    </span>
+					</div>
+				</div>
+				<div class="content3-down" style="display: flex;flex-direction: row;">
+					<div class="content3-left" style="flex:1;">
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+						<div style="display: block;padding: 10px;border: 1px solid #e5e5e5;height: 150px;">
+							<label style="display: block;padding: 5px;height: 60px;" class="clearfloat">
+							  <img src="head.jpg" style="width: 40px;margin-right: 10px;" class="left"/>
+							  <span class="left" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;">Bessie&nbsp;Berry</a>
+							  	<a>Twilter</a>
+							  </span>
+							  <span class="right">3m</span>
+							</label>
+							<label style="display: block;max-height: 50px;overflow: hidden;padding: 5px;line-height: 25px;">这里放一些消息什么的真的是，最多两行，谢谢</label>
+						</div>
+						
+					</div>
+					<div class="content3-right" style="flex:2;">
+						<div style="display: flex;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						<div style="display: flex;border-bottom: 1px solid #E5E5E5;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						
+						<div style="display: flex;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						<div style="display: flex;border-bottom: 1px solid #E5E5E5;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						
+						<div style="display: flex;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						<div style="display: flex;border-bottom: 1px solid #E5E5E5;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						
+						<div style="display: flex;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						<div style="display: flex;border-bottom: 1px solid #E5E5E5;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						<div style="display: flex;border-bottom: 1px solid #E5E5E5;">
+							<label style="display: flex;flex-direction: row;padding: 5px;" class="clearfloat">
+							  <div style="width: 100px;"><img src="head.jpg" style="width: 70px;margin-right: 10px;" class=""/></div>
+							  <div class="" style="display: flex;flex-direction: column;">
+							  	<a style="color: deepskyblue;font-weight: bold;display: inline-block;margin-bottom: 10px;">Bessie&nbsp;Berry</a>
+							  	<a style="display: inline-block;margin-bottom: 10px;">这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢这里放一些消息什么的真的是，最多两行，谢谢</a>
+							  </div>
+							</label>	
+						</div>
+						
+					
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
